@@ -401,14 +401,6 @@ class HomePage extends StatelessWidget {
             }
           },
         ),
-        // floatingActionButton: FloatingActionButton.extended(
-        //   onPressed: () {
-        //     // Show refresh indicator programmatically on button tap.
-        //     _refreshIndicatorKey.currentState?.show();
-        //   },
-        //   icon: const Icon(Icons.refresh),
-        //   label: const Text('Show Indicator'),
-        // ),
       ),
     );
   }
