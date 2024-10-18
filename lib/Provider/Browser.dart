@@ -12,17 +12,17 @@ class GoogleController extends ChangeNotifier {
 
   List<String> dataStore = [];
 
-  void searchengine(String value,String data) {
-    // _webViewController?.loadUrl(
-      urlRequest: URLRequest(
-        url: WebUri(
-            "https://www.${m1}.com/search?q=$data"),
-      // ),
-    );
-    m1 = value!; // Update the group value
-    print(value);
-    notifyListeners();
-  }
+  // void searchengine(String value,String data) {
+  //   // _webViewController?.loadUrl(
+  //     urlRequest: URLRequest(
+  //       url: WebUri(
+  //           "https://www.${m1}.com/search?q=$data"),
+  //     // ),
+  //   );
+  //   m1 = value!; // Update the group value
+  //   print(value);
+  //   notifyListeners();
+  // }
 
   void searchData(String data) {
     dataStore.add(data.toString());
