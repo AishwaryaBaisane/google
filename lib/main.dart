@@ -4,21 +4,17 @@ import 'package:google/Screen/HomePage.dart';
 import 'package:provider/provider.dart';
 
 void main() {
-  runApp(MultiProvider(
+  runApp(
+    MultiProvider(
       providers: [
-        ChangeNotifierProvider(create: (context) => GoogleController(),)
-      ], builder: (context, child) => const MyApp()));
+        ChangeNotifierProvider(
+          create: (context) => GoogleController(),
+        ),
+      ],
+      builder: (context, child) => const MyApp(),
+    ),
+  );
 }
-
-
-// search engine
-// website_history_save
-// back_and_ forward
-//loader
-// refresh
-//user selective search_engine
-//on click page of history
-// home button
 
 
 class MyApp extends StatelessWidget {
@@ -32,4 +28,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
